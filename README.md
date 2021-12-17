@@ -21,7 +21,7 @@ The compile will succeed, but the references in the other file are missing.
 The content of MAIN.aux  
 \end{filecontents}
 
-[4] In MAIN.tex  
+[4] In SI.tex  
 Add on top: \usepackage{filecontents}  
 Add before the end: \makeatletter\@input{xr.tex}\makeatother
 
